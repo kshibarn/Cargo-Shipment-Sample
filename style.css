@@ -1,0 +1,185 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: black;
+}
+
+
+.nav-item{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 5px;
+}
+
+.nav-section{
+  padding: 10px;
+}
+
+.carousel{
+  text-align: center;
+  color: black;
+}
+
+.carousel h2{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: 'Arvo',courier, serif;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.carousel h3{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Arvo',courier, serif;
+  font-weight: 100;
+}
+
+.input-group{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-control{
+  text-align: center;
+  font-family: 'Arvo',courier, serif;
+}
+
+.Quote{
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  font-family: 'Arvo',courier, serif;
+}
+
+.Quote p{
+  margin-top: 20px;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-3 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+  text-align: center;
+}
+.marketing .col-lg-3 p {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.marketing h1{
+  text-align: center;
+  padding: 30px;
+}
+
+.container hr{
+  border-top: 1px solid black;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.col-lg-3 .alert{
+  background-color: #C6E6E3;
+}
+/* Featurettes
+------------------------- */
+.featurette{
+  padding: 40px;
+}
+
+.featurette p{
+  padding: 20px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  text-transform: uppercase;
+  padding: 20px;
+} 
+
+.information{
+  margin-bottom: 40px;
+} 
+
+.card{
+  padding: 2.5rem 2.5rem 1.75rem 2.5rem;
+  box-shadow: 0 3px 12px (13,66,115,.9);
+  margin: 0 .975px;
+}
+
+.information h1{
+  text-align: center;
+  font-family: sans-serif;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.information h2{
+  color: #06bda7;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.information p{
+  color: black;
+  text-align: center;
+}
+
+.container{
+  color: #8898aa;
+  background-color: #f8fafd;
+  font-size: 14px;
+  font-family: 'Arvo',courier, serif;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.container h3{
+  color: #06bda7;
+}
+
+.span12{
+  margin-top: 50px;
+  font-size: 10px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
